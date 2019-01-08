@@ -1,6 +1,11 @@
 # **YoutubeDLBatchGUI**
 ## Credit: https://youtube-dl.org/
 #### A simple batch GUI for the very popular "Youtube-DL.exe" application
+#### FFMpeg excluded version: 
+#### This is the FFMpeg included version, This means:
+- This version supports audio downloading out of the box
+- It is larger than the FFMpeg included version
+- Does not have options to connect to an already installed FFMpeg (Costing you space if its already installed)
 
 ##### Below will be ```source code``` of the YOUTUBE DOWNLOADER.bat ~~for the paranoid~~:
 ```bat
