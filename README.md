@@ -5,7 +5,7 @@
 ##### For more information, visit: https://github.com/rg3/youtube-dl/blob/master/README.md#readme
 #### This is the FFMpeg included version, This means:
 - This version supports audio downloading out of the box
-- It is larger than the FFMpeg included version
+- It is *nearly* 20x larger than the FFMpeg excluded version
 - Does not have options to connect to an already installed FFMpeg (Costing you space if its already installed)
 #### FFMpeg excluded version: https://github.com/Paradigm0001/YoutubeDLBatchUI-FFMpeg_ex
 
