@@ -21,7 +21,8 @@ echo:
 echo:
 echo 8. Open Output folder
 echo 9. Display help [Opens external text editor]
-choice /c 123456789 /n /m "Select an option: " 
+choice /c 123456789 /n /m "Select an option: "
+cls 
 if %ERRORLEVEL%==1 (
 	set /p VIDEO_URL="Please insert video URL: "
 	youtube-dl.exe -i %VERBOSE% --geo-bypass --yes-playlist --age-limit 25 --console-title !VIDEO_URL!
