@@ -79,7 +79,7 @@ if %ERRORLEVEL%==1 (
     cls
     set /p VIDEO_URL="Please insert video URL: "
     mode 75, 50
-    youtube-dl.exe -x -i %VERBOSE% --ffmpeg-location "%cd%\FFmpeg\bin\ffmpeg.exe" !FORMAT! --audio-quality !Audio_Quallity! -o "!SAVE_DIR!/%%(title)s-%%(id)s.%%(ext)s" --ignore-config --geo-bypass --yes-playlist --age-limit 25 --console-title !VIDEO_URL!
+    youtube-dl.exe -x -i %VERBOSE% --ffmpeg-location "%cd%\FFmpeg\bin\ffmpeg.exe" !FORMAT! --audio-quality !Audio_Quallity! -o "!SAVE_DIR!/%%(title)s.%%(ext)s" --ignore-config --geo-bypass --yes-playlist --age-limit 25 --console-title !VIDEO_URL!
     mode 75, 10
     title Youtube Video Downloader GUI          
     goto menu
