@@ -24,8 +24,14 @@ echo 9. Display help [Opens external text editor]
 choice /c 123456789 /n /m "Select an option: "
 cls
 if %ERRORLEVEL%==1 (
+	echo [To save to default dir; input nothing][Default save dir below:]
+    echo "%CD%\output"
+    echo:
+	if not defined SAVE_DIR set SAVE_DIR=./output
+    set /p SAVE_DIR="Please enter a save directory: "    
+    cls
 	set /p VIDEO_URL="Please insert video URL: "
-	youtube-dl.exe -i %VERBOSE% --geo-bypass --yes-playlist --age-limit 25 --console-title !VIDEO_URL!
+	youtube-dl.exe -i %VERBOSE% --geo-bypass --yes-playlist --age-limit 25 -o "!SAVE_DIR!/%%(title)s.%%(ext)s" --console-title !VIDEO_URL!
 	title Youtube Video Downloader GUI
 	goto menu
 ) else if %ERRORLEVEL%==2 (
