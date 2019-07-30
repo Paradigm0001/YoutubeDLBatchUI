@@ -10,7 +10,7 @@
 #### [FFMpeg excluded version](https://github.com/Paradigm0001/YoutubeDLBatchUI-FFMpeg_ex)
 
 ##### To access the source code, Right click on the .bat file and select `edit` or open with your selected text editor.
-##### You can access the source code by clicking here: [`YOUTUBE DOWNLOADER.bat`](https://github.com/Paradigm0001/YoutubeDLBatchUI/blob/master/YOUTUBE%20DOWNLOADER.bat)
+##### You can access the source code by clicking here: [`YOUTUBE DOWNLOADER.bat`](https://github.com/Paradigm0001/YoutubeDLBatchUI/blob/master/YOUTUBE_DOWNLOADER.bat)
 
 ## `This project is no longer maintained.`
 I am planning on moving to Bash and other UNIX based scripting languages, and therefore leaving batch behind.
