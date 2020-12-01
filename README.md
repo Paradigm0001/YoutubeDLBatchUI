@@ -3,7 +3,7 @@ I am planning on moving to Bash and other UNIX based scripting languages, and th
 
 Due to how I built this batch file, youtube-dl will always be up to date and I dont see any potential for it to break.
 
-If youtube-dl does have a massive rework I may look at fixing this batch file, however that chance still slim.
+If youtube-dl does have a massive rework I may look at fixing this batch file, however that chance is still slim.
 
 # **Youtube-DL Batch GUI (FFMpeg included)**
 ## [Credit to youtube-dl](https://youtube-dl.org/) & [Credit to FFmpeg](https://ffmpeg.zeranoe.com/builds/)
